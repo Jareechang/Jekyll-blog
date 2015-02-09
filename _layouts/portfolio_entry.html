@@ -1,0 +1,16 @@
+---
+layout: default
+---
+ <div class = "textmelater">
+<h2 class="content">{{page.title}}</h2>
+ 
+
+{% if page.images %}
+    <div class="textmelater-images">
+    {% for image in page.images %}
+        <img src="{{image.url}}" />
+    {% endfor %}
+    </div>
+{% endif %}
+{{ content }}
+</div>

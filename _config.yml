@@ -1,0 +1,11 @@
+# Site settings
+title: Jerry Chang
+email: therealjerrycan@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Hi, I am Jerry :) 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: Jerry_chang99
+github_username:  Jareechang
+# Build settings
+markdown: kramdown
