@@ -50,3 +50,17 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+
+img {
+  
+  width: 250px;
+}
+
+.page-content {
+  
+  background-image: url("/img/interlaken.jpg");
+  background-size: 100%;
+
+  img {float:left; margin-right: 20px;}
+}
